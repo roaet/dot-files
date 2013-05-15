@@ -1,0 +1,18 @@
+[submodule "bin"]
+	path = bin
+	url = git@github.com:roaet/dot-files-bin.git
+[submodule "tmux"]
+	path = tmux
+	url = git@github.com:roaet/dot-files-tmux.git
+[submodule "vim"]
+	path = vim
+	url = git@github.com:roaet/dot-files-vim.git
+[submodule "secure"]
+	path = secure
+	url = git@github.com:roaet/dot-files-secure.git
+[submodule "bash"]
+	path = bash
+	url = git@github.com:roaet/dot-files-bash.git
+[submodule "weechat"]
+	path = weechat
+	url = git@github.com:roaet/dot-files-weechat.git
