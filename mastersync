@@ -1,0 +1,10 @@
+#!/bin/bash
+
+for dir in $(find ./ -maxdepth 1 -type d); do
+    if [ -e "$dir/sync" ]; then
+        cd $dir
+        echo "Syncing $dir"
+        ./sync
+        cd ..
+    fi
+done
