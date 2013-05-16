@@ -16,3 +16,6 @@
 [submodule "weechat"]
 	path = weechat
 	url = https://github.com/roaet/dot-files-weechat.git
+[submodule "task"]
+	path = task
+	url = https://github.com/roaet/dot-taskwarrior.git
