@@ -1,4 +1,9 @@
 #!/bin/bash
+repos=(bash tmux spacevim bin)
+
+for repo in ${repos[@]}; do
+  git clone https://github.com/roaet/dot-files-$repo --recursive
+done
 
 for dir in $(find ./ -maxdepth 1 -type d); do
     if [ -e "$dir/sync" ]; then
